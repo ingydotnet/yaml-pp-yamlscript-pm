@@ -1,0 +1,37 @@
+=meta: 0.0.2
+
+name: YAML-PP-YAMLScript
+version: 0.0.1
+abstract: YAML Load YAMLScript Code as Data
+homepage: https://metacpan.org/dist/YAML-PP-YAMLScript
+language: perl
+license: perl
+copyright: 2023
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/yaml-pp-yamlscript-pm
+  bug: https://github.com/ingydotnet/yaml-pp-yamlscript-pm/issues
+
+requires:
+  perl: 5.16.0
+  XXX: '0.38'
+  YAMLScript: 0.1.11
+  YAML::PP: '0.036'
+
+test:
+  requires:
+    Capture::Tiny: '0.48'
+
+=zild:
+  no-about: true
+  no-readme: true
+  no-travis: true
+  test-000: none
